@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { useContext } from "react";
 import { useHistory } from "react-router-dom";
 import AuthContext from "../../store/auth-context";
-
+import { API_KEY } from "../../../credential/credentials";
 import classes from "./AuthForm.module.css";
 
 const AuthForm = () => {

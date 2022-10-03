@@ -2,7 +2,7 @@ import { useContext, useRef } from "react";
 import { useHistory } from "react-router-dom";
 import AuthContext from "../../store/auth-context";
 import classes from "./ProfileForm.module.css";
-import { API_KEY } from "../../../credentials";
+import { API_KEY } from "../../../credential/credentials";
 
 const ProfileForm = () => {
   const history = useHistory();
